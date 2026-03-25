@@ -1,10 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// ⚠️ IMPORTANTE: Cambia 'mi-app-devops' por el nombre EXACTO de tu repositorio en GitHub
+// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/mi-app-devops/',
+  // ⚠️ Cambia 'mi-app-devops' por el nombre de TU repositorio
+  base: '/taller-devops',
   test: {
     globals: true,
     environment: 'jsdom',
